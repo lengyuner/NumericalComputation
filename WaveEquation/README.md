@@ -18,7 +18,9 @@ the following is the five methods：
 
 
 
+Finally, we adopt the median filter to improve the computaional outcomes.
 
-
-
+The improvement is distinct.
+You can see it in the picture.
+Very interesting!
 
