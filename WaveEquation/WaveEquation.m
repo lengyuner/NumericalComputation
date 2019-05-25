@@ -5,11 +5,11 @@
 
 clear all;   
 0;% ut+aux=0
-1;% 迎风格式
-2;% Lax-Wendroff 格式
-3;% Lax-Friedrichs 格式
-4;% 蛙跳格式
-5;% 盒子格式
+1;% 鐭（氇╅
+2;% Lax-Wendroff 氇╅
+3;% Lax-Friedrichs 氇╅
+4;% 榈犲氇╅
+5;% 攵勭毒氇╅
 N=100;
 for k =1:N
     u0(1,k)=0;
@@ -39,8 +39,8 @@ u00(1,(5*N+1):15*N)=u0(1,1:10*N);
 
 plot(delta_x:delta_x:1,u00);
 axis([0,1,-2,2]);
-saveas(gcf, 'u0_真解', 'png')
-close;  %plot(delta_x:delta_x:12,u0)  %axis(0 60 -10 10)  %va=1/2;    % △x=0.001
+saveas(gcf, 'u0_寤崺', 'png')
+close;  %plot(delta_x:delta_x:12,u0)  %axis(0 60 -10 10)  %va=1/2;    % 鈯噚=0.001
 L_x=length(u0);
 va=1/2;
 N_t=1000;
@@ -56,7 +56,7 @@ end
 u=u1(N_t+1,:);
 plot(delta_x:delta_x:1,u);
 axis([0,1,-2,2]);
-saveas(gcf, 'u1_迎风格式', 'png')
+saveas(gcf, 'u1_鐭（氇╅', 'png')
 close;
 
 
@@ -71,7 +71,7 @@ end
 u=u2(N_t+1,:);
 plot(delta_x:delta_x:1,u);
 axis([0,1,-2,2]);
-saveas(gcf, 'u2_LW格式', 'png')
+saveas(gcf, 'u2_LW氇╅', 'png')
 close;
 
 
@@ -86,7 +86,7 @@ end
 u=u3(N_t+1,:);
 plot(delta_x:delta_x:1,u);
 axis([0,1,-2,2]);
-saveas(gcf, 'u3_LF格式', 'png')
+saveas(gcf, 'u3_LF氇╅', 'png')
 close;
 
 
@@ -106,7 +106,7 @@ end
 u=u4(N_t+1,:);
 plot(delta_x:delta_x:1,u);
 axis([0,1,-2,2]);
-saveas(gcf, 'u4_蛙跳格式', 'png')
+saveas(gcf, 'u4_榈犲氇╅', 'png')
 close;
 
 
@@ -120,7 +120,7 @@ end
 u=u5(N_t+1,:);
 plot(delta_x:delta_x:1,u)%,delta_x:delta_x:1,u00);
 axis([0,1,-2,2]);
-saveas(gcf, 'u5_盒子格式', 'png')
+saveas(gcf, 'u5_攵勭毒氇╅', 'png')
 close;
 
 
