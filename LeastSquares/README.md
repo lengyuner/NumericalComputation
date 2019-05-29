@@ -1,8 +1,8 @@
-线性最小二乘问题
+# 线性最小二乘问题
 
-分别利用
-(a)CGS    (b)MGS方法   (c)Householder方法    (d)Givens方法
-给出可逆矩阵的QR分解
+# 分别利用
+# (a)CGS    (b)MGS方法   (c)Householder方法    (d)Givens方法
+# 给出可逆矩阵的QR分解
 
 
 
