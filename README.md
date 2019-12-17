@@ -1,8 +1,90 @@
 # NumericalComputation
 
-using MATLAB
+Using MATLAB and C++
 
-## 热传导方程
+
+# Numerical Computation 1
+
+## Error Estimation Method
+
+The content is mainly theory.
+
+
+## Linear Equations
+
+### Direct Method
+
+Guass method
+
+Gauss-Jordan method
+
+## Matrix triangulation
+
+Crout 
+
+Cholesky
+
+$LDL^{T}$
+
+## Interpolation Method
+
+## 
+Larange
+
+Newton
+
+Hermite
+
+## Integral Computation
+
+Newton-Cotes
+
+Simpson
+
+Euler-Maclaurin
+
+Romberg
+
+Compsite Simpson
+
+Guass
+
+# Numerical Computation 2
+
+## Linear Equations
+### Iterative Method
+
+## Least Squares
+
+### CGS
+### MGS
+### Householder
+### Givens
+
+## Eigenvalue
+
+### Power Method
+
+Atiken Skill
+
+Acceleration Technique of Rayleigh Quotient
+
+### Jacobi Method
+
+
+### Inverse power method
+
+## Nonlinear Equations
+
+## Ordinary Differential Equations
+
+# Numerical Computation 3
+
+## Wave Equation
+
+## Heat Equation
+
+热传导方程
 
 
 全显格式
